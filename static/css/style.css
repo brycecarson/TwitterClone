@@ -1,0 +1,182 @@
+/* html,body{
+    height: 100%;
+} */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.content{
+    max-width: 600px;
+    height: 90%;
+    margin:0 auto;
+    border-left: 1px solid grey;
+    border-right:1px solid grey;
+
+}
+
+.posts li{
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 17px;
+}
+
+
+
+.posts li .logo{
+    flex-basis: 15%;
+}
+.posts li .name_body{
+    flex-basis: 85%;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+/*
+posts 
+***************************/
+
+.post_form{
+    display: flex;
+    padding: 30px 40px;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid #ccc;
+}
+
+.post_form textarea::placeholder{
+    padding-left: 2vw;
+}
+
+.input-name{
+    background-color: white;
+    border: none;
+    width: 80%;
+ } 
+ input .input-name{
+    width: 90%;
+ }
+.post_form input{
+    padding:10px;
+    border: .5px solid #ccc;
+    border-radius: 10px;
+    
+}
+.post_form textarea{
+    width: 83%;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    
+}
+.header-main{
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    background-color: white;
+}
+
+.header-main .logo {
+    width: 50px;
+}
+.post_form .logo{
+    flex-basis: 10%;
+    min-width: 60px;
+}
+
+.post_form .logo img {
+    width: 60%;
+}
+.tweet button{
+    background-color: lightskyblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 15px;
+    margin: 20px 15px;
+    color: white;
+
+}
+.post_form .tweet{
+    margin-top: 2vw;
+}
+.posts ul{
+    padding: 0;
+}
+
+.posts li .logo img{
+    width:60%;
+
+}
+.posts li .name{
+    font-weight: bold;
+} 
+.posts li .datetime{
+    color: gray;
+} 
+
+.posts li .menu_icon{
+    width:20px;
+    position: absolute;
+    right:30px;
+    top: 18px;
+}
+
+.posts li .menu{
+    display: none;
+    position: absolute;
+    top:40px;
+    right:15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+} 
+
+.posts li .menu a{
+    text-decoration: none;
+}
+
+.posts li .name_body .like{
+    display:flex;
+    align-items: center;
+}
+#like{
+    width: 3vw;
+}
+
+#edit-img {
+    width: 27vw;
+    
+}
+
+#cancel-id {
+    margin-left: 3vw;
+}
+
+
+/* textarea {
+    margin-left: 35%;
+}
+input[type="text"] {
+    margin-left: 35%;
+    width: 30%;
+    
+}
+input[type="submit"] {
+    margin-left: 45%;
+} */
+
